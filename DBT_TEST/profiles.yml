@@ -1,0 +1,9 @@
+DBT_TEST:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: SYSADMIN
+      warehouse: COMPUTE_WH
+      database: PROD_SILVER
+      schema: PUBLIC
